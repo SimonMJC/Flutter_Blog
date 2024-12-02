@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
         // 앱 전체적으로 앱바의 폰트 스타일이 동일하니 appBarTheme 속성 정의해서 사용!
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.bold,
